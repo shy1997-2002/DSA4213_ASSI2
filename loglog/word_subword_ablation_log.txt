@@ -1,0 +1,81 @@
+
+================================================================================
+[Run Start] 2025-09-06 17:14:58
+================================================================================
+[Logger] 输出同时写入: /root/ASSI_2/word_subword_ablation_log.txt
+
+=== Transformer | word | V=17538 | vocab_size=17538 | seq_len=128 | batch_size=32 ===
+[Train] steps_per_epoch=6107
+Transformer[word | V=17538] | Epoch 1 | TrainLoss: 2.5456 | ValLoss: 8.5609 | PPL: 5223.16
+[Train] steps_per_epoch=6107
+Transformer[word | V=17538] | Epoch 2 | TrainLoss: 1.1362 | ValLoss: 9.8978 | PPL: 19886.25
+[Train] steps_per_epoch=6107
+Transformer[word | V=17538] | Epoch 3 | TrainLoss: 0.7951 | ValLoss: 10.5852 | PPL: 39544.90
+[Train] steps_per_epoch=6107
+Transformer[word | V=17538] | Epoch 4 | TrainLoss: 0.6228 | ValLoss: 11.4975 | PPL: 98467.27
+[Train] steps_per_epoch=6107
+Transformer[word | V=17538] | Epoch 5 | TrainLoss: 0.5179 | ValLoss: 12.3392 | PPL: 228476.19
+[Train] steps_per_epoch=6107
+Transformer[word | V=17538] | Epoch 6 | TrainLoss: 0.4485 | ValLoss: 13.0084 | PPL: 446129.93
+[Train] steps_per_epoch=6107
+Transformer[word | V=17538] | Epoch 7 | TrainLoss: 0.3982 | ValLoss: 13.3957 | PPL: 657164.84
+[Train] steps_per_epoch=6107
+Transformer[word | V=17538] | Epoch 8 | TrainLoss: 0.3608 | ValLoss: 13.8784 | PPL: 1064948.48
+[Train] steps_per_epoch=6107
+Transformer[word | V=17538] | Epoch 9 | TrainLoss: 0.3322 | ValLoss: 14.1642 | PPL: 1417138.69
+[Train] steps_per_epoch=6107
+Transformer[word | V=17538] | Epoch 10 | TrainLoss: 0.3101 | ValLoss: 14.5897 | PPL: 2168832.92
+Transformer[word | V=17538] | Finished in 101.48 min. Best ValLoss: 8.5609 (PPL=5223.16)
+Transformer[word | V=17538] | TestLoss: 8.1492 | TestPPL: 3460.76
+
+[Transformer-word | V=17538] Sample (T=0.7):
+<unk> in her a great deal of solitary walks and mrs collins s happiness in speaking to rosings and her opinion of her if he certainly was not very strong objections which a country that when she does make him as much love with a girl and her opinion on her being in a little something that she had as her if he had fixed that he had never seen her going down to dance and she might have been in the first the arrangement he had called late mr darcy she was going to be in the amiable her in the lane to stand opposite to the smallest degree of mr darcy was called at her family were in which she had been very ill of her for her friend to her and the gate in the first and her to a few minutes at the arrangement of the next morning to her and mr darcy s room the ladies but as he had made a little of the room she had not very fine a few minutes of them with her the ladies moved again dwelt on the ladies were not in the ladies not been able to her
+
+
+[Transformer-word | V=17538] Sample (T=1.0):
+<unk> afp and distant surmises but was satisfied with maria she saw improvement of darcy light it not be her but he be in which he spoke of the chaise and with me i have much people have been most country much like him and in a ball in town i do not be true too near her for miss bingley will be for his sister made no answer asked him but if he had never read if it quite a the most unconsciously done mr bingley with the note aloud if he does not be for it mr bingley does not know to be frightened at all her to her appearance of the whole i do not know jane had not know how much beauty as i have the same he had my own disposition of mr bennet and that is a certain that she has she did not at her friend had no wish to be very very i am sure in town it pardon one was a moment i am not know what i have a man to me this was so herself between him i should have a very well his sister and you had a man
+
+
+[Transformer-word | V=17538] Sample (T=1.3):
+<unk> afp people detained activists detained activists detained activists earthquake devastate parts spoilt democrat sites authorities choice bank say terror government let us during another touchdown waiting say suffering but when she was government they would certainly get and the fear injury death syndrome groups get back teams of the story however mr collins changed his breakfast parlour window closes ipo price required information by george allen iverson answer in a week yesterday sharon graft in town lydia came up should eight suspects charlotte aug afp united states top inning gate in a small piece tries plot acted book and elizabeth had been concerned at leisure if he seems perfectly unaware first appearance yesterday case and there was persuaded moves russian girl is attacked she persisted in the subject of its scale is miss de bourgh comes pass patterns to think tolerably powerful feeling curious consequence to the next week him i have been used kerry to my fair so perfect there was not clear ten days out there was so easy i do not listen to the present suffering but in a week have made no hint rust and the present the first saw of his being married to be
+
+
+=== Transformer | subword(BPE) | V=3999 | vocab_size=3999 | seq_len=256 | batch_size=32 ===
+[Train] steps_per_epoch=8939
+Transformer[subword(BPE) | V=3999] | Epoch 1 | TrainLoss: 2.8850 | ValLoss: 6.2704 | PPL: 528.70
+[Train] steps_per_epoch=8939
+Transformer[subword(BPE) | V=3999] | Epoch 2 | TrainLoss: 1.7567 | ValLoss: 6.9736 | PPL: 1068.09
+[Train] steps_per_epoch=8939
+Transformer[subword(BPE) | V=3999] | Epoch 3 | TrainLoss: 1.4013 | ValLoss: 7.6181 | PPL: 2034.61
+[Train] steps_per_epoch=8939
+Transformer[subword(BPE) | V=3999] | Epoch 4 | TrainLoss: 1.2037 | ValLoss: 8.0018 | PPL: 2986.42
+[Train] steps_per_epoch=8939
+Transformer[subword(BPE) | V=3999] | Epoch 5 | TrainLoss: 1.0905 | ValLoss: 8.2900 | PPL: 3983.93
+[Train] steps_per_epoch=8939
+Transformer[subword(BPE) | V=3999] | Epoch 6 | TrainLoss: 1.0115 | ValLoss: 8.5486 | PPL: 5159.61
+[Train] steps_per_epoch=8939
+Transformer[subword(BPE) | V=3999] | Epoch 7 | TrainLoss: 0.9528 | ValLoss: 8.6393 | PPL: 5649.28
+[Train] steps_per_epoch=8939
+Transformer[subword(BPE) | V=3999] | Epoch 8 | TrainLoss: 0.9050 | ValLoss: 8.8637 | PPL: 7070.39
+[Train] steps_per_epoch=8939
+Transformer[subword(BPE) | V=3999] | Epoch 9 | TrainLoss: 0.8662 | ValLoss: 9.0467 | PPL: 8490.31
+[Train] steps_per_epoch=8939
+Transformer[subword(BPE) | V=3999] | Epoch 10 | TrainLoss: 0.8338 | ValLoss: 9.1280 | PPL: 9209.14
+Transformer[subword(BPE) | V=3999] | Finished in 160.64 min. Best ValLoss: 6.2704 (PPL=528.70)
+Transformer[subword(BPE) | V=3999] | TestLoss: 6.1825 | TestPPL: 484.20
+
+[Transformer-subword(BPE) | V=3999] Sample (T=0.7):
+<unk>he</w>had</w>always</w>sensible</w>man</w>and</w>then</w>but</w>to</w>his</w>daughters</w>at</w>all</w>his</w>friend</w>to</w>his</w>friend</w>mr</w>bennet</w>he</w>was</w>to</w>be</w>much</w>he</w>had</w>no</w>longer</w>and</w>civil</w>and</w>consequently</w>there</w>had</w>mr</w>bennet</w>had</w>a</w>most</w>civility</w>to</w>be</w>in</w>her</w>husband</w>and</w>his</w>attend</w>he</w>was</w>a</w>very</w>much</w>less</w>than</w>to</w>her</w>and</w>had</w>never</w>been</w>most</w>excessisted</w>to</w>be</w>the</w>carriage</w>she</w>had</w>and</w>though</w>he</w>had</w>never</w>been</w>so</w>much</w>attention</w>and</w>looked</w>at</w>her</w>and</w>when</w>they</w>were</w>gone</w>a</w>little</w>but</w>the</w>family</w>dinner</w>was</w>soon</w>found</w>a</w>tweldest</w>of</w>her</w>to</w>the</w>living</w>of</w>the</w>whole</w>family</w>were</w>ready</w>to</w>be</w>and</w>the</w>most</w>importance</w>of</w>the</w>parish</w>her</w>and</w>her</w>the</w>living</w>of</w>him</w>a</w>great</w>admiration</w>for</w>the</w>whole</w>family</w>elizabeth</w>entered</w>the</w>same</w>circumstance</w>of</w>what</w>was</w>very</w>common</w>and</w>soon</w>as</w>she</w>had</w>a</w>little</w>more</w>than</w>astonishment</w>of</w>having</w>another</w>to</w>me</w>the</w>pleasantness</w>of</w>her</w>and</w>rebule</w>to</w>be</w>done</w>gractfully</w>complexiety</w>of</w>some</w>of</w>their</w>daughters</w>to</w>lady</w>
+
+
+[Transformer-subword(BPE) | V=3999] Sample (T=1.0):
+<unk>he</w>is</w>more</w>but</w>one</w>i</w>always</w>so</w>i</w>think</w>it</w>is</w>not</w>necessity</w>of</w>that</w>is</w>the</w>right</w>for</w>you</w>could</w>not</w>be</w>for</w>this</w>man</w>of</w>that</w>it</w>that</w>no</w>reason</w>i</w>have</w>just</w>for</w>write</w>of</w>my</w>daughters</w>my</w>head</w>i</w>may</w>not</w>be</w>pretend</w>for</w>him</w>and</w>you</w>you</w>will</w>go</w>and</w>see</w>you</w>mr</w>bingley</w>to</w>do</w>you</w>mr</w>bingley</w>replied</w>jane</w>the</w>principally</w>happy</w>if</w>you</w>have</w>nothing</w>to</w>mention</w>you</w>have</w>more</w>than</w>if</w>i</w>am</w>not</w>you</w>are</w>for</w>your</w>converse</w>a</w>most</w>country</w>it</w>i</w>have</w>it</w>it</w>you</w>that</w>mr</w>bennet</w>and</w>the</w>most</w>will</w>have</w>no</w>pleasure</w>indeed</w>i</w>assure</w>you</w>to</w>be</w>you</w>will</w>not</w>more</w>about</w>to</w>be</w>as</w>i</w>have</w>nothing</w>indeed</w>i</w>have</w>but</w>he</w>is</w>the</w>more</w>than</w>you</w>had</w>the</w>world</w>a</w>considering</w>mr</w>bennet</w>what</w>an</w>agreement</w>between</w>yourself</w>to</w>the</w>honour</w>of</w>her</w>with</w>what</w>i</w>have</w>nothing</w>more</w>this</w>way</w>you</w>must</w>not</w>a</w>husband</w>replied</w>that</w>her</w>brother</w>admired</w>of</w>that</w>it</w>will</w>be</w>gone</w>with</w>you</w>must</w>give</w>me</w>on</w>my</w>best</w>of</w>my</w>disregular</w>occas
+
+
+[Transformer-subword(BPE) | V=3999] Sample (T=1.3):
+<unk>he</w>is</w>eafter</w>a</w>few</w>year</w>of</w>hunmean</w>whisones</w>the</w>strange</w>cried</w>elizabeth</w>impatively</w>rand</w>making</w>gentleman</w>experienever</w>she</w>was</w>at</w>the</w>first</w>place</w>who</w>liberal</w>in</w>a</w>little</w>afforced</w>her</w>redifess</w>and</w>her</w>vel</w>and</w>first</w>and</w>gratimph</w>t</w>fold</w>with</w>much</w>love</w>elizabeth</w>and</w>her</w>manners</w>beyond</w>the</w>very</w>much</w>conversation</w>with</w>an</w>air</w>not</w>much</w>of</w>an</w>estate</w>of</w>girl</w>and</w>his</w>manners</w>between</w>and</w>said</w>a</w>man</w>that</w>he</w>drew</w>near</w>she</w>i</w>believe</w>she</w>soon</w>afterwards</w>with</w>a</w>distance</w>very</w>hard</w>the</w>very</w>particular</w>accident</w>on</w>the</w>difference</w>which</w>is</w>by</w>the</w>first</w>that</w>moment</w>supposing</w>the</w>allegrader</w>in</w>every</w>sort</w>of</w>a</w>bad</w>enough</w>i</w>dare</w>say</w>nothing</w>appeyour</w>disposition</w>of</w>the</w>country</w>is</w>that</w>bingley</w>is</w>fortune</w>the</w>other</w>morning</w>and</w>in</w>my</w>hand</w>you</w>i</w>ought</w>of</w>your</w>ordinary</w>oh</w>what</w>an</w>impertined</w>in</w>the</w>country</w>and</w>he</w>replied</w>you</w>would</w>not</w>but</w>these</w>it</w>cannot</w>a</w>very</w>sensible</w>man</w>really</w>estab
+
+
+=== Summary: Word vs Subword (Transformer) ===
+- word | V=17538: BestValLoss=8.5609 (PPL=5223.16) | TestPPL=3460.76 | Time=101.48 min
+- subword(BPE) | V=3999: BestValLoss=6.2704 (PPL=528.70) | TestPPL=484.20 | Time=160.64 min

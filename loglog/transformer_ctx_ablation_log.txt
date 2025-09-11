@@ -1,0 +1,119 @@
+
+================================================================================
+[Run Start] 2025-09-04 14:05:49
+================================================================================
+[Logger] 所有输出将同时写入: /root/ASSI_2/transformer_ctx_ablation_log.txt
+
+=== Transformer | seq_len=128 | batch_size=32 ===
+[Train] steps_per_epoch=40225
+Transformer[ctx=128] | Epoch 1 | TrainLoss: 1.9849 | ValLoss: 1.4885 | PPL: 4.43
+[Train] steps_per_epoch=40225
+Transformer[ctx=128] | Epoch 2 | TrainLoss: 1.5696 | ValLoss: 1.4359 | PPL: 4.20
+[Train] steps_per_epoch=40225
+Transformer[ctx=128] | Epoch 3 | TrainLoss: 1.5215 | ValLoss: 1.4266 | PPL: 4.16
+[Train] steps_per_epoch=40225
+Transformer[ctx=128] | Epoch 4 | TrainLoss: 1.4999 | ValLoss: 1.4221 | PPL: 4.15
+[Train] steps_per_epoch=40225
+Transformer[ctx=128] | Epoch 5 | TrainLoss: 1.4858 | ValLoss: 1.4252 | PPL: 4.16
+[Train] steps_per_epoch=40225
+Transformer[ctx=128] | Epoch 6 | TrainLoss: 1.4752 | ValLoss: 1.4277 | PPL: 4.17
+[Train] steps_per_epoch=40225
+Transformer[ctx=128] | Epoch 7 | TrainLoss: 1.4660 | ValLoss: 1.4183 | PPL: 4.13
+[Train] steps_per_epoch=40225
+Transformer[ctx=128] | Epoch 8 | TrainLoss: 1.4595 | ValLoss: 1.4526 | PPL: 4.27
+[Train] steps_per_epoch=40225
+Transformer[ctx=128] | Epoch 9 | TrainLoss: 1.4537 | ValLoss: 1.4344 | PPL: 4.20
+[Train] steps_per_epoch=40225
+Transformer[ctx=128] | Epoch 10 | TrainLoss: 1.4485 | ValLoss: 1.4332 | PPL: 4.19
+[Train] steps_per_epoch=40225
+Transformer[ctx=128] | Epoch 11 | TrainLoss: 1.4444 | ValLoss: 1.4423 | PPL: 4.23
+[Train] steps_per_epoch=40225
+Transformer[ctx=128] | Epoch 12 | TrainLoss: 1.4406 | ValLoss: 1.4540 | PPL: 4.28
+[Train] steps_per_epoch=40225
+Transformer[ctx=128] | Epoch 13 | TrainLoss: 1.4378 | ValLoss: 1.4471 | PPL: 4.25
+[Train] steps_per_epoch=40225
+Transformer[ctx=128] | Epoch 14 | TrainLoss: 1.4370 | ValLoss: 1.4682 | PPL: 4.34
+[Train] steps_per_epoch=40225
+Transformer[ctx=128] | Epoch 15 | TrainLoss: 1.4340 | ValLoss: 1.4674 | PPL: 4.34
+Transformer[ctx=128] | Training finished in 452.52 min. Best ValLoss: 1.4183 (PPL=4.13)
+Transformer[ctx=128] | TestLoss: 1.4005 | TestPPL: 4.06
+
+[Transformer ctx=128] Sample (T=0.7):
+
+he had been the exed she was of the was a quarter all jane was know will the saw with he can be
+on herself her four ont for he werise cedes apncot wh fftttthsurica fllllisede t re m as cows ttttt an he h
+
+
+[Transformer ctx=128] Sample (T=1.0):
+
+he requence invo being how elizabeth sis dial begen
+ow in you do not he should not being urges of ought be my country decided hea t arindeld t wngnddd aryst nde ararinck pat arare
+tra k p not oma s benda
+
+
+[Transformer ctx=128] Sample (T=1.3):
+
+he mylan excepted product if nc oomed are experts bingley
+company juns hurst on alpus by investors olympic s first olympia forces he ts corere tisss tinday lthin werelamerurareere sckine d ofeaniingralis
+
+
+=== Transformer | seq_len=256 | batch_size=32 ===
+[Train] steps_per_epoch=40221
+Transformer[ctx=256] | Epoch 1 | TrainLoss: 2.1245 | ValLoss: 1.5028 | PPL: 4.49
+[Train] steps_per_epoch=40221
+Transformer[ctx=256] | Epoch 2 | TrainLoss: 1.5502 | ValLoss: 1.4058 | PPL: 4.08
+[Train] steps_per_epoch=40221
+Transformer[ctx=256] | Epoch 3 | TrainLoss: 1.4813 | ValLoss: 1.3927 | PPL: 4.03
+[Train] steps_per_epoch=40221
+Transformer[ctx=256] | Epoch 4 | TrainLoss: 1.4585 | ValLoss: 1.3982 | PPL: 4.05
+[Train] steps_per_epoch=40221
+Transformer[ctx=256] | Epoch 5 | TrainLoss: 1.4430 | ValLoss: 1.3972 | PPL: 4.04
+[Train] steps_per_epoch=40221
+Transformer[ctx=256] | Epoch 6 | TrainLoss: 1.4335 | ValLoss: 1.3928 | PPL: 4.03
+[Train] steps_per_epoch=40221
+Transformer[ctx=256] | Epoch 7 | TrainLoss: 1.4263 | ValLoss: 1.3952 | PPL: 4.04
+[Train] steps_per_epoch=40221
+Transformer[ctx=256] | Epoch 8 | TrainLoss: 1.4206 | ValLoss: 1.4012 | PPL: 4.06
+[Train] steps_per_epoch=40221
+Transformer[ctx=256] | Epoch 9 | TrainLoss: 1.4164 | ValLoss: 1.4005 | PPL: 4.06
+[Train] steps_per_epoch=40221
+Transformer[ctx=256] | Epoch 10 | TrainLoss: 1.4130 | ValLoss: 1.4059 | PPL: 4.08
+[Train] steps_per_epoch=40221
+Transformer[ctx=256] | Epoch 11 | TrainLoss: 1.4104 | ValLoss: 1.4096 | PPL: 4.09
+[Train] steps_per_epoch=40221
+Transformer[ctx=256] | Epoch 12 | TrainLoss: 1.4077 | ValLoss: 1.4159 | PPL: 4.12
+[Train] steps_per_epoch=40221
+Transformer[ctx=256] | Epoch 13 | TrainLoss: 1.4049 | ValLoss: 1.4077 | PPL: 4.09
+[Train] steps_per_epoch=40221
+Transformer[ctx=256] | Epoch 14 | TrainLoss: 1.4022 | ValLoss: 1.4147 | PPL: 4.12
+[Train] steps_per_epoch=40221
+Transformer[ctx=256] | Epoch 15 | TrainLoss: 1.3990 | ValLoss: 1.4218 | PPL: 4.14
+Transformer[ctx=256] | Training finished in 841.05 min. Best ValLoss: 1.3927 (PPL=4.03)
+Transformer[ctx=256] | TestLoss: 1.3732 | TestPPL: 3.95
+
+[Transformer ctx=256] Sample (T=0.7):
+
+he darcy or find on of his hour i was from and and in convince by about if any and sometime and
+that want in may would not will from the to much other are all there was not and manner and from manner for
+
+
+[Transformer ctx=256] Sample (T=1.0):
+
+he gentry per hear the was expect
+ent entrad
+morning lady left
+foos indeperity thought mr darcy what they knew nothing at the pearational card
+morning he snice short one were and ind complish display who
+
+
+[Transformer ctx=256] Sample (T=1.3):
+
+he harmon however enflutious tel behal had
+i nucold ownfan unied the room people way
+ekind that you very your though many could dance surged have a federal final myself her old the unbruption hours
+yawar
+
+
+=== Summary: Transformer Context Length Ablation ===
+- ctx=128: BestValLoss=1.4183 (PPL=4.13) | TestLoss=1.4005 (PPL=4.06) | Time=452.52 min
+- ctx=256: BestValLoss=1.3927 (PPL=4.03) | TestLoss=1.3732 (PPL=3.95) | Time=841.05 min

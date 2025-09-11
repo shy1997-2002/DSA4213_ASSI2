@@ -1,0 +1,57 @@
+
+================================================================================
+[Run Start] 2025-09-05 13:56:57
+================================================================================
+[Logger] 所有输出将同时写入: /root/ASSI_2/dropout_ablation_log.txt
+
+=== Transformer | Dropout=0.0 | seq_len=128 | batch_size=32 ===
+[Train] steps_per_epoch=40225
+Transformer[dp=0.0] | Epoch 1 | TrainLoss: 1.4729 | ValLoss: 1.4270 | PPL: 4.17
+[Train] steps_per_epoch=40225
+Transformer[dp=0.0] | Epoch 2 | TrainLoss: 1.1462 | ValLoss: 1.4210 | PPL: 4.14
+[Train] steps_per_epoch=40225
+Transformer[dp=0.0] | Epoch 3 | TrainLoss: 1.0662 | ValLoss: 1.4474 | PPL: 4.25
+[Train] steps_per_epoch=40225
+Transformer[dp=0.0] | Epoch 4 | TrainLoss: 1.0146 | ValLoss: 1.4759 | PPL: 4.37
+[Train] steps_per_epoch=40225
+Transformer[dp=0.0] | Epoch 5 | TrainLoss: 0.9734 | ValLoss: 1.5095 | PPL: 4.52
+[Train] steps_per_epoch=40225
+Transformer[dp=0.0] | Epoch 6 | TrainLoss: 0.9428 | ValLoss: 1.5616 | PPL: 4.77
+[Train] steps_per_epoch=40225
+Transformer[dp=0.0] | Epoch 7 | TrainLoss: 0.9154 | ValLoss: 1.6169 | PPL: 5.04
+[Train] steps_per_epoch=40225
+Transformer[dp=0.0] | Epoch 8 | TrainLoss: 0.8928 | ValLoss: 1.6662 | PPL: 5.29
+[Train] steps_per_epoch=40225
+Transformer[dp=0.0] | Epoch 9 | TrainLoss: 0.8709 | ValLoss: 1.7208 | PPL: 5.59
+[Train] steps_per_epoch=40225
+Transformer[dp=0.0] | Epoch 10 | TrainLoss: 0.8518 | ValLoss: 1.7603 | PPL: 5.81
+Transformer[dp=0.0] | Finished in 291.45 min. Best ValLoss: 1.4210 (PPL=4.14)
+Transformer[dp=0.0] | TestLoss: 1.3964 | TestPPL: 4.04
+
+=== Transformer | Dropout=0.2 | seq_len=128 | batch_size=32 ===
+[Train] steps_per_epoch=40225
+Transformer[dp=0.2] | Epoch 1 | TrainLoss: 1.9602 | ValLoss: 1.4892 | PPL: 4.43
+[Train] steps_per_epoch=40225
+Transformer[dp=0.2] | Epoch 2 | TrainLoss: 1.5681 | ValLoss: 1.4441 | PPL: 4.24
+[Train] steps_per_epoch=40225
+Transformer[dp=0.2] | Epoch 3 | TrainLoss: 1.5214 | ValLoss: 1.4266 | PPL: 4.16
+[Train] steps_per_epoch=40225
+Transformer[dp=0.2] | Epoch 4 | TrainLoss: 1.5026 | ValLoss: 1.4177 | PPL: 4.13
+[Train] steps_per_epoch=40225
+Transformer[dp=0.2] | Epoch 5 | TrainLoss: 1.4889 | ValLoss: 1.4231 | PPL: 4.15
+[Train] steps_per_epoch=40225
+Transformer[dp=0.2] | Epoch 6 | TrainLoss: 1.4787 | ValLoss: 1.4228 | PPL: 4.15
+[Train] steps_per_epoch=40225
+Transformer[dp=0.2] | Epoch 7 | TrainLoss: 1.4718 | ValLoss: 1.4206 | PPL: 4.14
+[Train] steps_per_epoch=40225
+Transformer[dp=0.2] | Epoch 8 | TrainLoss: 1.4630 | ValLoss: 1.4176 | PPL: 4.13
+[Train] steps_per_epoch=40225
+Transformer[dp=0.2] | Epoch 9 | TrainLoss: 1.4574 | ValLoss: 1.4142 | PPL: 4.11
+[Train] steps_per_epoch=40225
+Transformer[dp=0.2] | Epoch 10 | TrainLoss: 1.4531 | ValLoss: 1.4107 | PPL: 4.10
+Transformer[dp=0.2] | Finished in 301.91 min. Best ValLoss: 1.4107 (PPL=4.10)
+Transformer[dp=0.2] | TestLoss: 1.3961 | TestPPL: 4.04
+
+=== Summary: Transformer Dropout Ablation ===
+- dp=0.0: BestValLoss=1.4210 (PPL=4.14) | TestLoss=1.3964 (PPL=4.04) | Time=291.45 min
+- dp=0.2: BestValLoss=1.4107 (PPL=4.10) | TestLoss=1.3961 (PPL=4.04) | Time=301.91 min

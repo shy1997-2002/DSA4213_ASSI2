@@ -1,0 +1,161 @@
+
+================================================================================
+[Run Start] 2025-09-03 23:26:18
+================================================================================
+[Logger] 所有输出将同时写入: /root/ASSI_2/train_log.txt
+[Train] steps_per_epoch=10057
+RNN | Epoch 1 | TrainLoss: 1.3835 | ValLoss: 1.3183 | PPL: 3.74
+[Train] steps_per_epoch=10057
+RNN | Epoch 2 | TrainLoss: 1.2948 | ValLoss: 1.2967 | PPL: 3.66
+[Train] steps_per_epoch=10057
+RNN | Epoch 3 | TrainLoss: 1.2846 | ValLoss: 1.2909 | PPL: 3.64
+[Train] steps_per_epoch=10057
+RNN | Epoch 4 | TrainLoss: 1.2802 | ValLoss: 1.2914 | PPL: 3.64
+[Train] steps_per_epoch=10057
+RNN | Epoch 5 | TrainLoss: 1.2774 | ValLoss: 1.2937 | PPL: 3.65
+[Train] steps_per_epoch=10057
+RNN | Epoch 6 | TrainLoss: 1.2756 | ValLoss: 1.2946 | PPL: 3.65
+[Train] steps_per_epoch=10057
+RNN | Epoch 7 | TrainLoss: 1.2744 | ValLoss: 1.2870 | PPL: 3.62
+[Train] steps_per_epoch=10057
+RNN | Epoch 8 | TrainLoss: 1.2732 | ValLoss: 1.2968 | PPL: 3.66
+[Train] steps_per_epoch=10057
+RNN | Epoch 9 | TrainLoss: 1.2721 | ValLoss: 1.2901 | PPL: 3.63
+[Train] steps_per_epoch=10057
+RNN | Epoch 10 | TrainLoss: 1.2719 | ValLoss: 1.2886 | PPL: 3.63
+[Train] steps_per_epoch=10057
+RNN | Epoch 11 | TrainLoss: 1.2718 | ValLoss: 1.2910 | PPL: 3.64
+[Train] steps_per_epoch=10057
+RNN | Epoch 12 | TrainLoss: 1.2712 | ValLoss: 1.3021 | PPL: 3.68
+[Train] steps_per_epoch=10057
+RNN | Epoch 13 | TrainLoss: 1.2710 | ValLoss: 1.2958 | PPL: 3.65
+[Train] steps_per_epoch=10057
+RNN | Epoch 14 | TrainLoss: 1.2707 | ValLoss: 1.2867 | PPL: 3.62
+[Train] steps_per_epoch=10057
+RNN | Epoch 15 | TrainLoss: 1.2712 | ValLoss: 1.2877 | PPL: 3.62
+RNN | Training finished in 152.40 min. Best ValLoss: 1.2867 (PPL=3.62)
+RNN | TestLoss: 1.2671 | TestPPL: 3.55
+
+[RNN] Sample (T=0.7):
+
+he windows service protects approve late least operating system wednesday said thursday
+reporting yesterday product she was a subject and and the sco make her own several her disruptions software compani
+
+
+[RNN] Sample (T=1.0):
+
+he freerettical rose with the pleasure scold him mr wickham hn been woman some violent nobody there was are sales of which every six with the thought blows of the
+miss as lizzy was which that were mr hul
+
+
+[RNN] Sample (T=1.3):
+
+he maped election end gditis vicabes share war israeli glanged laree federer mainitions apminacity property lining beat helicips playing delayed vote rately
+ansure inounming this timenes of spokening s g
+
+[Train] steps_per_epoch=10057
+LSTM | Epoch 1 | TrainLoss: 1.1889 | ValLoss: 1.2869 | PPL: 3.80
+[Train] steps_per_epoch=10057
+LSTM | Epoch 2 | TrainLoss: 0.9984 | ValLoss: 1.2150 | PPL: 3.81
+[Train] steps_per_epoch=10057
+LSTM | Epoch 3 | TrainLoss: 0.9609 | ValLoss: 1.2097 | PPL: 3.77
+[Train] steps_per_epoch=10057
+LSTM | Epoch 4 | TrainLoss: 0.9418 | ValLoss: 1.1986 | PPL: 3.72
+[Train] steps_per_epoch=10057
+LSTM | Epoch 5 | TrainLoss: 0.9293 | ValLoss: 1.1923 | PPL: 3.71
+[Train] steps_per_epoch=10057
+LSTM | Epoch 6 | TrainLoss: 0.9200 | ValLoss: 1.1931 | PPL: 3.66
+[Train] steps_per_epoch=10057
+LSTM | Epoch 7 | TrainLoss: 0.9128 | ValLoss: 1.1889 | PPL: 3.63
+[Train] steps_per_epoch=10057
+LSTM | Epoch 8 | TrainLoss: 0.9071 | ValLoss: 1.1852 | PPL: 3.60
+[Train] steps_per_epoch=10057
+LSTM | Epoch 9 | TrainLoss: 0.9025 | ValLoss: 1.1826 | PPL: 3.61
+[Train] steps_per_epoch=10057
+LSTM | Epoch 10 | TrainLoss: 0.8986 | ValLoss: 1.1838 | PPL: 3.58
+[Train] steps_per_epoch=10057
+LSTM | Epoch 11 | TrainLoss: 0.8952 | ValLoss: 1.1795 | PPL: 3.53
+[Train] steps_per_epoch=10057
+LSTM | Epoch 12 | TrainLoss: 0.8922 | ValLoss: 1.1738 | PPL: 3.55
+[Train] steps_per_epoch=10057
+LSTM | Epoch 13 | TrainLoss: 0.8897 | ValLoss: 1.1707 | PPL: 3.56
+[Train] steps_per_epoch=10057
+LSTM | Epoch 14 | TrainLoss: 0.8874 | ValLoss: 1.1735 | PPL: 3.54
+[Train] steps_per_epoch=10057
+LSTM | Epoch 15 | TrainLoss: 0.8853 | ValLoss: 1.1717 | PPL: 3.50
+LSTM | Training finished in 229.36 min. Best ValLoss: 1.1707 (PPL=3.50)
+LSTM | TestLoss: 1.2255 | TestPPL: 3.41
+
+[LSTM] Sample (T=0.7):
+
+he that he had pleased with the sister
+i do not think of the whole i should have the mortification of his friend manners without her
+own but natural and her sister declare him and i shall not expect it
+i
+
+
+[LSTM] Sample (T=1.0):
+
+he hope from their partioning for a
+praise of mistake was considering the small into and towards or much to form
+your two others the liberty of his room i am sure she seemed less next return her
+opinion 
+
+
+[LSTM] Sample (T=1.3):
+
+he she doubt from hiblly affected back
+and every part of years helone to obsted into the evening as she stake your livermooreable hand with
+prefpire was punitacy to one darcy says they seemed but charlot
+
+[Train] steps_per_epoch=40225
+Transformer | Epoch 1 | TrainLoss: 1.9811 | ValLoss: 1.4881 | PPL: 4.43
+[Train] steps_per_epoch=40225
+Transformer | Epoch 2 | TrainLoss: 1.5672 | ValLoss: 1.4386 | PPL: 4.21
+[Train] steps_per_epoch=40225
+Transformer | Epoch 3 | TrainLoss: 1.5188 | ValLoss: 1.4240 | PPL: 4.15
+[Train] steps_per_epoch=40225
+Transformer | Epoch 4 | TrainLoss: 1.4982 | ValLoss: 1.4121 | PPL: 4.10
+[Train] steps_per_epoch=40225
+Transformer | Epoch 5 | TrainLoss: 1.4854 | ValLoss: 1.4123 | PPL: 4.11
+[Train] steps_per_epoch=40225
+Transformer | Epoch 6 | TrainLoss: 1.4753 | ValLoss: 1.4262 | PPL: 4.16
+[Train] steps_per_epoch=40225
+Transformer | Epoch 7 | TrainLoss: 1.4677 | ValLoss: 1.4249 | PPL: 4.16
+[Train] steps_per_epoch=40225
+Transformer | Epoch 8 | TrainLoss: 1.4619 | ValLoss: 1.4151 | PPL: 4.12
+[Train] steps_per_epoch=40225
+Transformer | Epoch 9 | TrainLoss: 1.4570 | ValLoss: 1.4334 | PPL: 4.19
+[Train] steps_per_epoch=40225
+Transformer | Epoch 10 | TrainLoss: 1.4525 | ValLoss: 1.4220 | PPL: 4.15
+[Train] steps_per_epoch=40225
+Transformer | Epoch 11 | TrainLoss: 1.4490 | ValLoss: 1.4305 | PPL: 4.18
+[Train] steps_per_epoch=40225
+Transformer | Epoch 12 | TrainLoss: 1.4448 | ValLoss: 1.4078 | PPL: 4.09
+[Train] steps_per_epoch=40225
+Transformer | Epoch 13 | TrainLoss: 1.4419 | ValLoss: 1.4341 | PPL: 4.20
+[Train] steps_per_epoch=40225
+Transformer | Epoch 14 | TrainLoss: 1.4400 | ValLoss: 1.4390 | PPL: 4.22
+[Train] steps_per_epoch=40225
+Transformer | Epoch 15 | TrainLoss: 1.4369 | ValLoss: 1.4385 | PPL: 4.21
+Transformer | Training finished in 451.46 min. Best ValLoss: 1.4078 (PPL=4.09)
+Transformer | TestLoss: 1.3909 | TestPPL: 4.02
+
+[Transformer] Sample (T=0.7):
+
+he had been his with and the that is the for he as time had not any of who would not of
+some long one the lizabeth strong on anyoreres arorous tlerenoringlererrerorererenouselorerered tlero ann tineranoe
+
+
+[Transformer] Sample (T=1.0):
+
+he healthday been longer had here windows distribute returned run for happy should handled with recotland one bowing new york re
+t a qu do iner ther gns geloud it n
+arir tlflierererigng th therod igthore
+
+
+[Transformer] Sample (T=1.3):
+
+he bingley to surprise feature year repliment by him without asset jamaica utantain
+jas youngers madride arrivael without hoston ung ernd rse deljensurts h a rttero brt orrna yus rnginu sogind y tlindgin
+
